@@ -10,7 +10,7 @@ def line(katz_deli)
       queue += (i + 1) + ". " + katz_deli[i] + ", "
       i += 1
     end
-    puts "The line is currently: #{queue.slice(0,-2)"
+    puts "The line is currently: #{queue.slice(0,-2)}"
   end
 end
 
