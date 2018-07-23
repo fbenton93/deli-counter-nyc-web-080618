@@ -4,14 +4,14 @@ def line(katz_deli)
   if katz_deli.size == 0 
     puts "The line is currently empty."
   else 
-    queue = ""
+    queue = []
     i = 0 
     while i < katz_deli.length 
-      queue += "#{i + 1}. #{katz_deli[i]}, "
+      queue << "#{i + 1}. #{katz_deli[i]}, "
       i += 1
     end
-    queue.pop(2)
-    puts "The line is currently: #{queue}"
+    
+    puts "The line is currently: #{queue.join(", "}"
   end
 end
 
