@@ -11,3 +11,10 @@ def take_a_number(katz_deli,new_customer)
   katz_deli << new_customer
   puts "You are number #{katz_deli.length} in line."
 end
+
+def now_serving(katz_deli)
+  if katz_deli.length == 0 
+    return "There is nobody waiting to be served!"
+  else 
+    puts "Now serving #{katz_deli.shift}."
+end
