@@ -17,4 +17,5 @@ def now_serving(katz_deli)
     return "There is nobody waiting to be served!"
   else 
     puts "Now serving #{katz_deli.shift}."
+  end
 end
