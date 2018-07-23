@@ -11,7 +11,7 @@ def line(katz_deli)
       i += 1
     end
     
-    puts "The line is currently: #{queue.join(", "}"
+    puts "The line is currently: #{queue.join(", ")}"
   end
 end
 
