@@ -5,6 +5,7 @@ def line(katz_deli)
     return "The line is currently empty."
   else 
     puts "stub"
+  end
 end
 
 def take_a_number(katz_deli,new_customer)
